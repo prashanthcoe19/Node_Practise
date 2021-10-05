@@ -1,6 +1,6 @@
 let decode = {
   dec(data) {
-    let decoded = Buffer.from(data, "base64").toString("utf-8");
+    const decoded = Buffer.from(data, "base64").toString("utf-8");
     return decoded;
   },
 };

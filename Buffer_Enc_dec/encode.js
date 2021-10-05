@@ -1,6 +1,6 @@
 let encode = {
   enc(data) {
-    let encoded = Buffer.from(data).toString("base64");
+    const encoded = Buffer.from(data).toString("base64");
     return encoded;
   },
 };
